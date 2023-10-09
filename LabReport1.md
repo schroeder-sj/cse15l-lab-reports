@@ -1,6 +1,7 @@
 
 # Lab Report 1 - Remote Access and FileSystem
 
+
 ## cd Command
 
 #### No Args:
@@ -31,6 +32,7 @@ to ~/lecture1/messages. The output was the terminal command prompt which reflect
 The working directory I began in was ~/lecture1/messages. I then ran the cd command with the path en-us.txt which is a text file in the working directory. I then received an output that
 told me that en-us.txt in the working directory ~/lecture1/messages was not a directory. It then provided the terminal prompt in the same working directory. This output was an error
 as the cd command only works on directories and ~/lecture1/messages/en-us.txt is not a directory, it is a path to a file.
+
 
 ## ls Command
 
@@ -65,6 +67,7 @@ The starting working directory I was in was the home directory. I then ran the l
 The working directory I began in was the home directory. I then ran the ls command with the path lecture1/messages/en-us.txt which is the path to a text file named "en-us.txt". 
 I then received the output lecture1/messages/en-us.txt in addition to the terminal command prompt with the home directory. This output was not an error as the path lead to a file and ls outputs
 files and directories (and their characteristics) located at the given path.
+
 
 ## cat Command
 
