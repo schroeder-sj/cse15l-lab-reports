@@ -5,11 +5,14 @@
 
 #### Code for StringServer:
 
-`` import java.io.IOException;
-   import java.net.URI;
+```
+import java.io.IOException;
+import java.net.URI;
+
 class Handler implements URLHandler {
 String messages = new String();
 int counter = 0;
+
     public String handleRequest(URI url) {
         if (url.getPath().contains("/add-message")){
             String[] parameters = url.getQuery().split("=");
@@ -20,6 +23,7 @@ int counter = 0;
         return (messages);
     }
 }
+
 class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -29,7 +33,7 @@ class StringServer {
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
-} ``
+} ```
 
 #### Screen Shots of Using Server:
 
