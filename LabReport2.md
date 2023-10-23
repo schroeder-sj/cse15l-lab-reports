@@ -39,9 +39,9 @@ class StringServer {
 
 #### Screen Shots of Using Server:
 
-![1]("https://github.com/schroeder-sj/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%209.00.09%20PM.png")
+![1](Screenshot%202023-10-22%20at%209.00.09%20PM.png)
 
-![2]("https://github.com/schroeder-sj/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%209.00.22%20PM.png")
+![2](Screenshot%202023-10-22%20at%209.00.22%20PM.png)
 
 ### Screen Shot 1
 In this screenshot, the handleRequest method is called and in this case the relevant arguement would be the url. Within this URL, the 
@@ -64,11 +64,11 @@ newly incremented counter as well as the string in the URL. This outputs our fin
 
 ## Part 2
 
-![Path to Private Key]("https://github.com/schroeder-sj/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%209.28.07%20PM.png")
+![Path to Private Key](Screenshot%202023-10-22%20at%209.28.07%20PM.png)
 
-![Path to Public Key]("https://github.com/schroeder-sj/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%209.27.25%20PM.png")
+![Path to Public Key](Screenshot%202023-10-22%20at%209.27.25%20PM.png)
 
-![Logging in Via Pub Key]("https://github.com/schroeder-sj/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%209.29.07%20PM.png")
+![Logging in Via Pub Key](Screenshot%202023-10-22%20at%209.29.07%20PM.png)
 
 Note on logging in via public key: I use my public key for an HPC environment in which it is required for me to use a very long passphrase, therefore I am unable to 
 log in with this key without using a passphrase.
