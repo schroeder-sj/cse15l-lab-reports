@@ -64,9 +64,14 @@ newly incremented counter as well as the string in the URL. This outputs our fin
 
 ## Part 2
 
+#### Private Key
+
 ![Path to Private Key](Screenshot%202023-10-22%20at%209.28.07%20PM.png)
 
+#### Public Key
 ![Path to Public Key](Screenshot%202023-10-22%20at%209.27.25%20PM.png)
+
+#### SSH using public key
 
 ![Logging in Via Pub Key](Screenshot%202023-10-22%20at%209.29.07%20PM.png)
 
