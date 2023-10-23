@@ -5,10 +5,10 @@
 
 #### Code for StringServer:
 
-`` import java.io.IOException; ``
-  `` import java.net.URI;``
-``class Handler implements URLHandler { ``
-``String messages = new String();
+`` import java.io.IOException;
+   import java.net.URI;
+class Handler implements URLHandler {
+String messages = new String();
 int counter = 0;
     public String handleRequest(URI url) {
         if (url.getPath().contains("/add-message")){
