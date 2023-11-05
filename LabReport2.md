@@ -73,7 +73,7 @@ newly incremented counter as well as the string in the URL. This outputs our fin
 
 #### SSH using public key
 
-![Logging in Via Pub Key](Screenshot%202023-11-05%20at%202.28.22$20PM.png)
+![Logging in Via Pub Key](Screenshot%202023-11-05%20at%202.28.22%20PM.png)
 
 Note on logging in via public key: I use my public key for an HPC environment in which it is required for me to use a very long passphrase, therefore I am unable to 
 log in with this key without using a passphrase.
