@@ -69,11 +69,11 @@ newly incremented counter as well as the string in the URL. This outputs our fin
 ![Path to Private Key](Screenshot%202023-10-22%20at%209.28.07%20PM.png)
 
 #### Public Key
-![Path to Public Key](Screenshot%202023-10-22%20at%209.27.25%20PM.png)
+![Path to Public Key](Screenshot%202023-11-05%20at%202.28.22%20PM.png)
 
 #### SSH using public key
 
-![Logging in Via Pub Key](Screenshot%202023-11-05%20at%202.28.22%20PM.png)
+![Logging in Via Pub Key](Screenshot%202023-10-22%20at%209.29.07%20PM.png)
 
 Note on logging in via public key: I use my public key for an HPC environment in which it is required for me to use a very long passphrase, therefore I am unable to 
 log in with this key without using a passphrase.
