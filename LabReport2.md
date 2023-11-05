@@ -44,7 +44,7 @@ class StringServer {
 ![2](Screenshot%202023-10-22%20at%209.00.22%20PM.png)
 
 ### Screen Shot 1
-In this screenshot, the handleRequest method is called and in this case the relevant arguement would be the url. Within this URL, the 
+In this screenshot, the ```handleRequest()``` method is called and in this case the relevant arguement would be the url. Within this URL, the 
 method pulls the string value after ```/add-message?s=``` and then outputs that relevant string in the form of a numerical list. From this
 request, the String variable messeges is changed by adding the previous message that is stored in this variable and updating it to include a number
 followed by a period, a space, the string parameter from the URL, and then a newline character. The number in this is collected from a counter which 
@@ -52,7 +52,7 @@ increments by 1 immediately after this if statement in the method is called. In 
 newly incremented counter as well as the string in the URL.
 
 ### Screen Shot 2
-In this screenshot, the handleRequest method is called and in this case the relevant arguement would be the url. Within this URL, the 
+In this screenshot, the ```handleRequest()``` method is called and in this case the relevant arguement would be the url. Within this URL, the 
 method pulls the string value after ```/add-message?s=``` which is "potatoes" and then outputs that relevant string in the form of a numerical list. From this
 request, the String variable messeges is changed by adding the previous message that is stored in this variable and updating it to include a number
 followed by a period, a space, the string parameter from the URL, and then a newline character. The number in this is collected from a counter which 
